@@ -129,14 +129,14 @@
 			isa = PBXGroup;
 			children = (
 				722A9DE3194F4196000584F7 /* FISAppDelegate.h */,
+				722A9DE4194F4196000584F7 /* FISAppDelegate.m */,
 				72B59D8B194F4D0F0085942A /* Card.h */,
 				72B59D8C194F4D0F0085942A /* Card.m */,
 				72B59D88194F4A850085942A /* PlayingCard.h */,
 				72B59D89194F4A850085942A /* PlayingCard.m */,
-				722A9DE4194F4196000584F7 /* FISAppDelegate.m */,
-				72B59D86194F46AF0085942A /* Storyboard.storyboard */,
 				72B59D92194F4E040085942A /* CardSwitcherViewController.h */,
 				72B59D93194F4E040085942A /* CardSwitcherViewController.m */,
+				72B59D86194F46AF0085942A /* Storyboard.storyboard */,
 				722A9DE6194F4196000584F7 /* Images.xcassets */,
 				722A9DDB194F4196000584F7 /* Supporting Files */,
 			);
