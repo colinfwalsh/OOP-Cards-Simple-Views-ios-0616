@@ -1,3 +1,8 @@
+---
+tags: views, OOP, intro
+language: objc
+---
+
 #OOP-Cards Simple Views
 
 We're going to give our PlayingCard objects a graphical representation. 
