@@ -1,5 +1,0 @@
-#include "Pods-OOPCardsSimpleViewsTests-Swizzlean.xcconfig"
-GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/Swizzlean" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Expecta" "${PODS_ROOT}/Headers/KIF" "${PODS_ROOT}/Headers/Specta" "${PODS_ROOT}/Headers/Swizzlean"
-OTHER_LDFLAGS = -ObjC
-PODS_ROOT = ${SRCROOT}
