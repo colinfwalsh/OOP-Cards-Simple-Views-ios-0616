@@ -16,8 +16,10 @@
 SpecBegin(PlayingCard)
 
 describe(@"PlayingCard", ^{
+
     __block PlayingCard *myCard;
-    beforeAll(^{
+    
+    beforeEach(^{
         myCard = [[PlayingCard alloc] initWithSuit:@"♠️" rank:@5];
     });
     
