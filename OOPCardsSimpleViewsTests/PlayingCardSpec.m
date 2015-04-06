@@ -80,7 +80,7 @@ describe(@"PlayingCard", ^{
         __block PlayingCard *myValidPlayingCard;
         __block PlayingCard *myInvalidPlayingCard;
         
-        beforeAll(^{
+        beforeEach(^{
             myValidPlayingCard = [[PlayingCard alloc] init];
             myInvalidPlayingCard = [[PlayingCard alloc] init];
             myValidPlayingCard.rank = @13;
@@ -90,7 +90,7 @@ describe(@"PlayingCard", ^{
         it(@"valid ranks should return value as NSNumber",^{
             expect(myValidPlayingCard.rank).to.equal(@13);
         });
-        
+       
         it(@"invalid ranks should return 0 value",^{
             expect(myInvalidPlayingCard.rank).to.equal(@0);
         });
@@ -100,7 +100,7 @@ describe(@"PlayingCard", ^{
         __block PlayingCard *myValidPlayingCard;
         __block PlayingCard *myInvalidPlayingCard;
         
-        beforeAll(^{
+        beforeEach(^{
             myValidPlayingCard = [[PlayingCard alloc] initWithSuit:@"♥️" rank:@13];
             myInvalidPlayingCard = [[PlayingCard alloc] initWithSuit:@"X" rank:@14];
         });
@@ -117,7 +117,7 @@ describe(@"PlayingCard", ^{
         __block PlayingCard *myValidPlayingCard;
         __block PlayingCard *myInvalidPlayingCard;
         
-        beforeAll(^{
+        beforeEach(^{
             myValidPlayingCard = [[PlayingCard alloc] init];
             myInvalidPlayingCard = [[PlayingCard alloc] init];
         });
