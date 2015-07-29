@@ -1,7 +1,4 @@
----
-tags: views, OOP, intro
-language: objc
----
+
 
 #OOP-Cards Simple Views
 
