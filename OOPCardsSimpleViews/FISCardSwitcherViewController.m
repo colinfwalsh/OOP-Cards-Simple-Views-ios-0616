@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 FIS. All rights reserved.
 //
 
-#import "CardSwitcherViewController.h"
+#import "FISCardSwitcherViewController.h"
 
-@interface CardSwitcherViewController ()
+@interface FISCardSwitcherViewController ()
 
 @end
 
-@implementation CardSwitcherViewController
+@implementation FISCardSwitcherViewController
 
 - (void)viewDidLoad
 {

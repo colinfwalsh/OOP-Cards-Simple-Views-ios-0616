@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CardSwitcherViewController : UIViewController
+@interface FISCardSwitcherViewController : UIViewController
 
 @end

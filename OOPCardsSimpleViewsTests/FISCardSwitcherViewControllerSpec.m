@@ -1,5 +1,5 @@
 //
-//  CardSwitcherViewControllerSpec.m
+//  FISCardSwitcherViewControllerSpec.m
 //  OOPCardsSimpleViews
 //
 //  Created by Chris Gonzales on 6/16/14.
@@ -7,15 +7,15 @@
 //
 
 #import "Specta.h"
-#import "CardSwitcherViewController.h"
+#import "FISCardSwitcherViewController.h"
 #define EXP_SHORTHAND
 #import "Expecta.h"
 #import "KIF.h"
 #import "Swizzlean.h"
 
-SpecBegin(CardSwitcherViewController)
+SpecBegin(FISCardSwitcherViewController)
 
-describe(@"CardSwitcherViewController", ^{
+describe(@"FISCardSwitcherViewController", ^{
     
     beforeAll(^{
         
