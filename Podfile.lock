@@ -1,26 +1,21 @@
 PODS:
-  - Expecta (0.2.4)
-  - KIF (3.0.4):
-    - KIF/XCTest
-  - KIF/XCTest (3.0.4)
-  - Specta (0.2.99)
+  - Expecta (1.0.3)
+  - KIF (3.3.0):
+    - KIF/Core (= 3.3.0)
+  - KIF/Core (3.3.0)
+  - Specta (1.0.4)
   - Swizzlean (0.1.2)
 
 DEPENDENCIES:
-  - Expecta (~> 0.2.4)
+  - Expecta
   - KIF (~> 3.0)
-  - Specta (from `git@github.com:specta/specta.git`, commit `93e4eac3fc31e0539261ae2fb633cae7e6b93b33`)
+  - Specta
   - Swizzlean (~> 0.1.1)
 
-EXTERNAL SOURCES:
-  Specta:
-    :commit: 93e4eac3fc31e0539261ae2fb633cae7e6b93b33
-    :git: git@github.com:specta/specta.git
-
 SPEC CHECKSUMS:
-  Expecta: 112bcafa2304ee0f3c5e586505f24555a47b25d5
-  KIF: 443c517d14fc2a99d27d3df170bc274cdf288241
-  Specta: 85ea870d8886e0bbf92ed8df112823bf3eb07322
-  Swizzlean: e389af392d2e1bc79757f00c195eddc2a94fdf20
+  Expecta: 9d1bff6c8b0eeee73a166a2ee898892478927a15
+  KIF: 0a82046d06f3648799cac522d2d0f7934214caac
+  Specta: 69bb134672aae190a1379ff91df07dad8dd1f869
+  Swizzlean: 164ef9d428a35ef61a404747ab40010f303dffa2
 
-COCOAPODS: 0.34.1
+COCOAPODS: 0.38.2
