@@ -1,15 +1,31 @@
 # OOP-Cards Simple Views
 
-We're going to give our PlayingCard objects a graphical representation. 
+1. Use Storyboard to layout a view controller
+2. Link labels and buttons in storyboard to a view controller's class file.
+3. Write the implementation for IBActions to change the text displayed in UILabels.
 
-##Instructions:
-1. Let's get three UILabels on our `CardSwitcherViewController` which is in our storyboard. We'll put one in the upper-left hand corner (for suit and rank), one in the bottom-right hand corner (for suit and rank), and one right in the center (which we'll also use for suit and rank). Save some room at the bottom, where we'll be adding a row of UIButtons.
-2. set the *accesibility label* of each of these UILabels to be `topLabel`, `middleLabel`, and `bottomLabel` respectively.                
-3. Let's add four UIButtons on our `CardSwitcherViewController`, in a row and in the order that I list them below:
-  - have the button title be "3 :spade special character:", with the *accessibility label* as `threeOfSpadesButon`
-  - have the button title be "4 :club special character:", with the *accessibility labe* as `fourOfClubsButton`
-  - have the button title be "8 :diamond special character:", with the *accessibility label* as `eightOfDiamondsButton`
-  - have the button title be "0 :hear special character:", with the *accessibility label* as `tenOfHeartsButton`
-4. Add the actions for these 4 buttons so that every time one is pressed, all of the card labels update to reflect the same rank and suit as indicated on that button.
+## Introduction
 
-**Note** if you get confused about the special characters mentioned above, remember to take a look at `CardSwitcherViewControllerSpec.m` to see exactly what you need to pass each test
+In this lab we're going to turn the canvas if a view controller into a representation of a playing card. You'll see that our `FICard` class has been imported from previous labs, and the `FISCardSwitcherViewController` is already setting up a few cards for us to use.
+
+## Instructions:
+
+Open the `OOPCardsSimpleView.xcworkspace` file and navigate to the storyboard file. You'll see an empty view controller that's already connected to the `FISCardSwitcherViewController` class.
+
+1. Create three UILabels on the view controller canvas:
+  * one in the upper-left hand corner,
+  * one in the bottom-right hand corner, and 
+  * one right in the center.  
+  Leave a little bit of room at the bottom for a row of UIButtons that we'll add later.
+  
+2. Set the *accesibility label* of each of these UILabels to be `topLabel`, `middleLabel`, and `bottomLabel` respectively. Add `!N` as the placeholder text in each. Increase the font size of the middle label to greater than 40.
+        
+3. Now, add four UIButtons to the bottom of the canvas in a row:
+  * set the button title to `♠️3` and the *accessibility label* to `threeOfSpadesButon`,
+  * set the button title to `♣️4` and the *accessibility label* to `fourOfClubsButton`,
+  * set the button title to `♦️8` and the *accessibility label* to `eightOfDiamondsButton`,
+  * set the button title to `♥️10` and the *accessibility label* to `tenOfHeartsButton`.
+
+4. Connect the IBActions for these four buttons and write their implementations so that when one is pressed, all three of the UILabels update their text to show the `cardLabel` for the card that matches that button. The tests should pass when you have done this correctly.
+
+**Note:** *If you have trouble copy/pasting the suit characters from the README, you can also find them in the test files.*
