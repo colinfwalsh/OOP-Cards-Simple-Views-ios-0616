@@ -11,6 +11,7 @@ end
 target "OOPCardsSimpleViewsTests" do
   pod 'Specta'
   pod 'Expecta'
+  pod 'Expecta+Collections'
   pod 'KIF', '~> 3.0'                                                           
   pod 'Swizzlean', '~> 0.1.1'  
 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D3DF62E1BC2CF570047AB5C /* FISCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DF62D1BC2CF570047AB5C /* FISCard.m */; settings = {ASSET_TAGS = (); }; };
 		4D3DF6301BC2CFB60047AB5C /* FISCardSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DF62F1BC2CFB60047AB5C /* FISCardSpec.m */; settings = {ASSET_TAGS = (); }; };
+		4D3DF6321BC2E1680047AB5C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DF6311BC2E1680047AB5C /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		722A9DD5194F4196000584F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722A9DD4194F4196000584F7 /* Foundation.framework */; };
 		722A9DD7194F4196000584F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722A9DD6194F4196000584F7 /* CoreGraphics.framework */; };
 		722A9DD9194F4196000584F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722A9DD8194F4196000584F7 /* UIKit.framework */; };
@@ -21,10 +22,6 @@
 		722A9DF0194F4196000584F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722A9DD8194F4196000584F7 /* UIKit.framework */; };
 		722A9DF8194F4196000584F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 722A9DF6194F4196000584F7 /* InfoPlist.strings */; };
 		72B59D87194F46AF0085942A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B59D86194F46AF0085942A /* Storyboard.storyboard */; };
-		72B59D8A194F4A850085942A /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B59D89194F4A850085942A /* PlayingCard.m */; };
-		72B59D8D194F4D0F0085942A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B59D8C194F4D0F0085942A /* Card.m */; };
-		72B59D90194F4D250085942A /* CardSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B59D8E194F4D250085942A /* CardSpec.m */; };
-		72B59D91194F4D250085942A /* PlayingCardSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B59D8F194F4D250085942A /* PlayingCardSpec.m */; };
 		72B59D94194F4E040085942A /* FISCardSwitcherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B59D93194F4E040085942A /* FISCardSwitcherViewController.m */; };
 		72B59D96194F57940085942A /* FISCardSwitcherViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B59D95194F57940085942A /* FISCardSwitcherViewControllerSpec.m */; };
 		F93DE0B205764FC9BC4DCC1F /* libPods-OOPCardsSimpleViewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E2011F5E674647A09E019A /* libPods-OOPCardsSimpleViewsTests.a */; };
@@ -45,6 +42,7 @@
 		4D3DF62C1BC2CF570047AB5C /* FISCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCard.h; sourceTree = "<group>"; };
 		4D3DF62D1BC2CF570047AB5C /* FISCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCard.m; sourceTree = "<group>"; };
 		4D3DF62F1BC2CFB60047AB5C /* FISCardSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCardSpec.m; sourceTree = "<group>"; };
+		4D3DF6311BC2E1680047AB5C /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		722A9DD1194F4196000584F7 /* OOPCardsSimpleViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OOPCardsSimpleViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		722A9DD4194F4196000584F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		722A9DD6194F4196000584F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +59,6 @@
 		722A9DF5194F4196000584F7 /* OOPCardsSimpleViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OOPCardsSimpleViewsTests-Info.plist"; sourceTree = "<group>"; };
 		722A9DF7194F4196000584F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		72B59D86194F46AF0085942A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		72B59D88194F4A850085942A /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
-		72B59D89194F4A850085942A /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
-		72B59D8B194F4D0F0085942A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
-		72B59D8C194F4D0F0085942A /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
-		72B59D8E194F4D250085942A /* CardSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSpec.m; sourceTree = "<group>"; };
-		72B59D8F194F4D250085942A /* PlayingCardSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardSpec.m; sourceTree = "<group>"; };
 		72B59D92194F4E040085942A /* FISCardSwitcherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCardSwitcherViewController.h; sourceTree = "<group>"; };
 		72B59D93194F4E040085942A /* FISCardSwitcherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCardSwitcherViewController.m; sourceTree = "<group>"; };
 		72B59D95194F57940085942A /* FISCardSwitcherViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCardSwitcherViewControllerSpec.m; sourceTree = "<group>"; };
@@ -145,19 +137,13 @@
 			children = (
 				722A9DE3194F4196000584F7 /* FISAppDelegate.h */,
 				722A9DE4194F4196000584F7 /* FISAppDelegate.m */,
-				4D3DF62C1BC2CF570047AB5C /* FISCard.h */,
-				4D3DF62D1BC2CF570047AB5C /* FISCard.m */,
-				72B59D8B194F4D0F0085942A /* Card.h */,
-				72B59D8C194F4D0F0085942A /* Card.m */,
-				72B59D88194F4A850085942A /* PlayingCard.h */,
-				72B59D89194F4A850085942A /* PlayingCard.m */,
-				72B59D92194F4E040085942A /* CardSwitcherViewController.h */,
-				72B59D93194F4E040085942A /* CardSwitcherViewController.m */,
-				72B59D86194F46AF0085942A /* Storyboard.storyboard */,
-				72B59D86194F46AF0085942A /* Storyboard.storyboard */,
 				72B59D92194F4E040085942A /* FISCardSwitcherViewController.h */,
 				72B59D93194F4E040085942A /* FISCardSwitcherViewController.m */,
+				4D3DF62C1BC2CF570047AB5C /* FISCard.h */,
+				4D3DF62D1BC2CF570047AB5C /* FISCard.m */,
+				72B59D86194F46AF0085942A /* Storyboard.storyboard */,
 				722A9DE6194F4196000584F7 /* Images.xcassets */,
+				4D3DF6311BC2E1680047AB5C /* Launch Screen.storyboard */,
 				722A9DDB194F4196000584F7 /* Supporting Files */,
 			);
 			path = OOPCardsSimpleViews;
@@ -179,8 +165,6 @@
 			children = (
 				72B59D95194F57940085942A /* FISCardSwitcherViewControllerSpec.m */,
 				4D3DF62F1BC2CFB60047AB5C /* FISCardSpec.m */,
-				72B59D8E194F4D250085942A /* CardSpec.m */,
-				72B59D8F194F4D250085942A /* PlayingCardSpec.m */,
 				722A9DF4194F4196000584F7 /* Supporting Files */,
 			);
 			path = OOPCardsSimpleViewsTests;
@@ -275,6 +259,7 @@
 			files = (
 				722A9DDF194F4196000584F7 /* InfoPlist.strings in Resources */,
 				722A9DE7194F4196000584F7 /* Images.xcassets in Resources */,
+				4D3DF6321BC2E1680047AB5C /* Launch Screen.storyboard in Resources */,
 				72B59D87194F46AF0085942A /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,11 +312,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72B59D8A194F4A850085942A /* PlayingCard.m in Sources */,
 				722A9DE1194F4196000584F7 /* main.m in Sources */,
 				4D3DF62E1BC2CF570047AB5C /* FISCard.m in Sources */,
 				722A9DE5194F4196000584F7 /* FISAppDelegate.m in Sources */,
-				72B59D8D194F4D0F0085942A /* Card.m in Sources */,
 				72B59D94194F4E040085942A /* FISCardSwitcherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,8 +324,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				72B59D96194F57940085942A /* FISCardSwitcherViewControllerSpec.m in Sources */,
-				72B59D90194F4D250085942A /* CardSpec.m in Sources */,
-				72B59D91194F4D250085942A /* PlayingCardSpec.m in Sources */,
 				4D3DF6301BC2CFB60047AB5C /* FISCardSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -442,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -452,7 +433,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OOPCardsSimpleViews/OOPCardsSimpleViews-Prefix.pch";
 				INFOPLIST_FILE = "OOPCardsSimpleViews/OOPCardsSimpleViews-Info.plist";
@@ -467,7 +447,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OOPCardsSimpleViews/OOPCardsSimpleViews-Prefix.pch";
 				INFOPLIST_FILE = "OOPCardsSimpleViews/OOPCardsSimpleViews-Info.plist";
