@@ -1,5 +1,7 @@
 # OOP-Cards Simple Views
 
+## Objectives
+
 1. Use Storyboard to layout a view controller
 2. Link labels and buttons in storyboard to a view controller's class file.
 3. Write the implementation for IBActions to change the text displayed in UILabels.
