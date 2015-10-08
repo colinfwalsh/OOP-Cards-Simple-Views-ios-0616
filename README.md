@@ -23,7 +23,7 @@ Open the `OOPCardsSimpleView.xcworkspace` file and navigate to the storyboard fi
 2. Set the *accesibility label* of each of these UILabels to be `topLabel`, `middleLabel`, and `bottomLabel` respectively. Add `!N` as the placeholder text in each. Increase the font size of the middle label to greater than 40.
         
 3. Now, add four UIButtons to the bottom of the canvas in a row:
-  * set the button title to `♠️3` and the *accessibility label* to `threeOfSpadesButon`,
+  * set the button title to `♠️3` and the *accessibility label* to `threeOfSpadesButton`,
   * set the button title to `♣️4` and the *accessibility label* to `fourOfClubsButton`,
   * set the button title to `♦️8` and the *accessibility label* to `eightOfDiamondsButton`,
   * set the button title to `♥️10` and the *accessibility label* to `tenOfHeartsButton`.
