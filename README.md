@@ -8,7 +8,7 @@
 
 ## Introduction
 
-In this lab we're going to turn the canvas if a view controller into a representation of a playing card. You'll see that our `FICard` class has been imported from previous labs, and the `FISCardSwitcherViewController` is already setting up a few cards for us to use.
+In this lab we're going to turn the canvas of a view controller into a representation of a playing card. You'll see that our `FICard` class has been imported from previous labs, and the `FISCardSwitcherViewController` is already setting up a few cards for us to use.
 
 ## Instructions:
 
