@@ -32,4 +32,4 @@ Open the `OOPCardsSimpleView.xcworkspace` file and navigate to the storyboard fi
 
 **Note:** *If you have trouble copy/pasting the suit characters from the README, you can also find them in the test files.*
 
-<a href='https://learn.co/lessons/OOP-Cards-Simple-Views' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/OOP-Cards-Simple-Views' title='OOP-Cards Simple Views'>OOP-Cards Simple Views</a> on Learn.co and start learning to code for free.</p>
