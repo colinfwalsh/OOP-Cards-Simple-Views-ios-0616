@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D3DF62E1BC2CF570047AB5C /* FISCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DF62D1BC2CF570047AB5C /* FISCard.m */; settings = {ASSET_TAGS = (); }; };
-		4D3DF6301BC2CFB60047AB5C /* FISCardSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DF62F1BC2CFB60047AB5C /* FISCardSpec.m */; settings = {ASSET_TAGS = (); }; };
-		4D3DF6321BC2E1680047AB5C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DF6311BC2E1680047AB5C /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4D3DF62E1BC2CF570047AB5C /* FISCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DF62D1BC2CF570047AB5C /* FISCard.m */; };
+		4D3DF6301BC2CFB60047AB5C /* FISCardSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DF62F1BC2CFB60047AB5C /* FISCardSpec.m */; };
+		4D3DF6321BC2E1680047AB5C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DF6311BC2E1680047AB5C /* Launch Screen.storyboard */; };
 		722A9DD5194F4196000584F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722A9DD4194F4196000584F7 /* Foundation.framework */; };
 		722A9DD7194F4196000584F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722A9DD6194F4196000584F7 /* CoreGraphics.framework */; };
 		722A9DD9194F4196000584F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722A9DD8194F4196000584F7 /* UIKit.framework */; };
@@ -24,7 +24,8 @@
 		72B59D87194F46AF0085942A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B59D86194F46AF0085942A /* Storyboard.storyboard */; };
 		72B59D94194F4E040085942A /* FISCardSwitcherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B59D93194F4E040085942A /* FISCardSwitcherViewController.m */; };
 		72B59D96194F57940085942A /* FISCardSwitcherViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B59D95194F57940085942A /* FISCardSwitcherViewControllerSpec.m */; };
-		F93DE0B205764FC9BC4DCC1F /* libPods-OOPCardsSimpleViewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E2011F5E674647A09E019A /* libPods-OOPCardsSimpleViewsTests.a */; };
+		9F2D0B13CCFE5EB57704EEA2 /* libPods-OOPCardsSimpleViewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF763BFC4FA8CBAA5F74390C /* libPods-OOPCardsSimpleViewsTests.a */; };
+		DBE3D24245736AE07A10065B /* libPods-OOPCardsSimpleViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A590FF40975F2557CBEC94CC /* libPods-OOPCardsSimpleViews.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A03BFFB26B2295930E7BEBD /* Pods-OOPCardsSimpleViewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OOPCardsSimpleViewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OOPCardsSimpleViewsTests/Pods-OOPCardsSimpleViewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		3DEBB86127F80C1F2894973E /* Pods-OOPCardsSimpleViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OOPCardsSimpleViews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OOPCardsSimpleViews/Pods-OOPCardsSimpleViews.debug.xcconfig"; sourceTree = "<group>"; };
 		4D3DF62C1BC2CF570047AB5C /* FISCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCard.h; sourceTree = "<group>"; };
 		4D3DF62D1BC2CF570047AB5C /* FISCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCard.m; sourceTree = "<group>"; };
 		4D3DF62F1BC2CFB60047AB5C /* FISCardSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCardSpec.m; sourceTree = "<group>"; };
@@ -62,8 +63,11 @@
 		72B59D92194F4E040085942A /* FISCardSwitcherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCardSwitcherViewController.h; sourceTree = "<group>"; };
 		72B59D93194F4E040085942A /* FISCardSwitcherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCardSwitcherViewController.m; sourceTree = "<group>"; };
 		72B59D95194F57940085942A /* FISCardSwitcherViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCardSwitcherViewControllerSpec.m; sourceTree = "<group>"; };
-		E3FBBD4A8304A679CAF0E66C /* Pods-OOPCardsSimpleViewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OOPCardsSimpleViewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OOPCardsSimpleViewsTests/Pods-OOPCardsSimpleViewsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E5E2011F5E674647A09E019A /* libPods-OOPCardsSimpleViewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OOPCardsSimpleViewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A590FF40975F2557CBEC94CC /* libPods-OOPCardsSimpleViews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OOPCardsSimpleViews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4806D848276A352CD2334D /* Pods-OOPCardsSimpleViewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OOPCardsSimpleViewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OOPCardsSimpleViewsTests/Pods-OOPCardsSimpleViewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		DBF58367907D821BE370859C /* Pods-OOPCardsSimpleViewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OOPCardsSimpleViewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OOPCardsSimpleViewsTests/Pods-OOPCardsSimpleViewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF763BFC4FA8CBAA5F74390C /* libPods-OOPCardsSimpleViewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OOPCardsSimpleViewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB42294F01CD6F0014B5309 /* Pods-OOPCardsSimpleViews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OOPCardsSimpleViews.release.xcconfig"; path = "Pods/Target Support Files/Pods-OOPCardsSimpleViews/Pods-OOPCardsSimpleViews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 				722A9DD7194F4196000584F7 /* CoreGraphics.framework in Frameworks */,
 				722A9DD9194F4196000584F7 /* UIKit.framework in Frameworks */,
 				722A9DD5194F4196000584F7 /* Foundation.framework in Frameworks */,
+				DBE3D24245736AE07A10065B /* libPods-OOPCardsSimpleViews.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,18 +89,20 @@
 				722A9DEE194F4196000584F7 /* XCTest.framework in Frameworks */,
 				722A9DF0194F4196000584F7 /* UIKit.framework in Frameworks */,
 				722A9DEF194F4196000584F7 /* Foundation.framework in Frameworks */,
-				F93DE0B205764FC9BC4DCC1F /* libPods-OOPCardsSimpleViewsTests.a in Frameworks */,
+				9F2D0B13CCFE5EB57704EEA2 /* libPods-OOPCardsSimpleViewsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E5469EC543ECBD77316371D /* Pods */ = {
+		22A0E9FFD6E8BA1817286873 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E3FBBD4A8304A679CAF0E66C /* Pods-OOPCardsSimpleViewsTests.debug.xcconfig */,
-				0A03BFFB26B2295930E7BEBD /* Pods-OOPCardsSimpleViewsTests.release.xcconfig */,
+				3DEBB86127F80C1F2894973E /* Pods-OOPCardsSimpleViews.debug.xcconfig */,
+				FDB42294F01CD6F0014B5309 /* Pods-OOPCardsSimpleViews.release.xcconfig */,
+				DBF58367907D821BE370859C /* Pods-OOPCardsSimpleViewsTests.debug.xcconfig */,
+				CA4806D848276A352CD2334D /* Pods-OOPCardsSimpleViewsTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -107,7 +114,7 @@
 				722A9DF3194F4196000584F7 /* OOPCardsSimpleViewsTests */,
 				722A9DD3194F4196000584F7 /* Frameworks */,
 				722A9DD2194F4196000584F7 /* Products */,
-				6E5469EC543ECBD77316371D /* Pods */,
+				22A0E9FFD6E8BA1817286873 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,7 +134,8 @@
 				722A9DD6194F4196000584F7 /* CoreGraphics.framework */,
 				722A9DD8194F4196000584F7 /* UIKit.framework */,
 				722A9DED194F4196000584F7 /* XCTest.framework */,
-				E5E2011F5E674647A09E019A /* libPods-OOPCardsSimpleViewsTests.a */,
+				A590FF40975F2557CBEC94CC /* libPods-OOPCardsSimpleViews.a */,
+				EF763BFC4FA8CBAA5F74390C /* libPods-OOPCardsSimpleViewsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 722A9DFD194F4196000584F7 /* Build configuration list for PBXNativeTarget "OOPCardsSimpleViews" */;
 			buildPhases = (
+				4EE3EE1D41C63D7E37D1641A /* [CP] Check Pods Manifest.lock */,
 				722A9DCD194F4196000584F7 /* Sources */,
 				722A9DCE194F4196000584F7 /* Frameworks */,
 				722A9DCF194F4196000584F7 /* Resources */,
+				44B06AEC0E3F5A1B8AE86D8E /* [CP] Embed Pods Frameworks */,
+				49704CD3E274BDDF23AD7B3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,11 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 722A9E00194F4196000584F7 /* Build configuration list for PBXNativeTarget "OOPCardsSimpleViewsTests" */;
 			buildPhases = (
-				0EBBA25AC8034117B065B3AE /* Check Pods Manifest.lock */,
+				1C54586DDE1028AB78B45BE0 /* [CP] Check Pods Manifest.lock */,
 				722A9DE8194F4196000584F7 /* Sources */,
 				722A9DE9194F4196000584F7 /* Frameworks */,
 				722A9DEA194F4196000584F7 /* Resources */,
-				48099C8AF3F5489AB613BAFD /* Copy Pods Resources */,
+				61B92D1ED8558258F8290B6D /* [CP] Embed Pods Frameworks */,
+				3A0DC7A803E1B164A359C60A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,14 +287,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0EBBA25AC8034117B065B3AE /* Check Pods Manifest.lock */ = {
+		1C54586DDE1028AB78B45BE0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,19 +302,79 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		48099C8AF3F5489AB613BAFD /* Copy Pods Resources */ = {
+		3A0DC7A803E1B164A359C60A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OOPCardsSimpleViewsTests/Pods-OOPCardsSimpleViewsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44B06AEC0E3F5A1B8AE86D8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OOPCardsSimpleViews/Pods-OOPCardsSimpleViews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49704CD3E274BDDF23AD7B3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OOPCardsSimpleViews/Pods-OOPCardsSimpleViews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EE3EE1D41C63D7E37D1641A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61B92D1ED8558258F8290B6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OOPCardsSimpleViewsTests/Pods-OOPCardsSimpleViewsTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -431,6 +503,7 @@
 		};
 		722A9DFE194F4196000584F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DEBB86127F80C1F2894973E /* Pods-OOPCardsSimpleViews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -445,6 +518,7 @@
 		};
 		722A9DFF194F4196000584F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB42294F01CD6F0014B5309 /* Pods-OOPCardsSimpleViews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -459,7 +533,7 @@
 		};
 		722A9E01194F4196000584F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3FBBD4A8304A679CAF0E66C /* Pods-OOPCardsSimpleViewsTests.debug.xcconfig */;
+			baseConfigurationReference = DBF58367907D821BE370859C /* Pods-OOPCardsSimpleViewsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OOPCardsSimpleViews.app/OOPCardsSimpleViews";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -483,7 +557,7 @@
 		};
 		722A9E02194F4196000584F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A03BFFB26B2295930E7BEBD /* Pods-OOPCardsSimpleViewsTests.release.xcconfig */;
+			baseConfigurationReference = CA4806D848276A352CD2334D /* Pods-OOPCardsSimpleViewsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OOPCardsSimpleViews.app/OOPCardsSimpleViews";
 				FRAMEWORK_SEARCH_PATHS = (

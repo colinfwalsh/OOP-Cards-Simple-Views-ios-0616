@@ -10,5 +10,8 @@
 @property (strong, nonatomic) FISCard *eightOfDiamonds;
 @property (strong, nonatomic) FISCard *tenOfHearts;
 
+
+
+
 @end
 
